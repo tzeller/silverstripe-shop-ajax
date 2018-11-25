@@ -14,7 +14,7 @@ use SilverStripe\Control\HTTPResponse;
  * @package shop
  * @subpackage ajax
  */
-class ShoppingCartAjax extends Extension
+class ShoppingCartAjax extends DataExtension
 {
 
     /**
