@@ -1,4 +1,11 @@
 <?php
+
+namespace MarkGuinn\SilverstripeShopAjax;
+
+use SilverStripe\ORM\DataExtension;
+use MarkGuinn\SilverstripeAjax\AjaxControllerExtension;
+use SilverStripe\Control\HTTPRequest;
+use SilverStripe\Control\HTTPResponse;
 /**
  * Ajax-specific functionality for shopping cart controller
  *
